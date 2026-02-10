@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #1a0000, #000);
+  color: white;
+  min-height: 100vh;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow:
+    0 0 10px rgba(255, 0, 0, 0.6),
+    0 0 30px rgba(255, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  opacity: 0.85;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+.marketing-hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.marketing-box {
+  max-width: 900px;
+  background: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255, 0, 0, 0.25);
+  box-shadow: 0 0 40px rgba(255, 0, 0, 0.15);
+  padding: 50px;
+  border-radius: 20px;
+}
+
+h1 {
+  color: #ff1a1a;
+  font-size: 42px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.intro span {
+  color: #ff1a1a;
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+h2 {
+  margin: 40px 0 25px;
+  color: #ff1a1a;
+  text-align: center;
+}
+
+.steps {
+  display: grid;
+  gap: 25px;
+}
+
+.step {
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 4px solid #ff1a1a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.step span {
+  color: #ff1a1a;
+  font-weight: bold;
+}
+
+.step h3 {
+  margin: 10px 0;
+}
+
+.final {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.final span {
+  color: #ff1a1a;
+  font-weight: 600;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  background: #25D366;
+  color: white;
+  font-size: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 25px rgba(37, 211, 102, 0.6);
+  z-index: 999;
+}
+
+.final-cta {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(circle at center,
+    rgba(255, 0, 0, 0.15),
+    #000 70%);
+}
+
+.cta-box {
+  max-width: 700px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 50px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 0, 0, 0.3);
+  box-shadow: 0 0 60px rgba(255, 0, 0, 0.25);
+}
+
+.final-cta h2 {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.final-cta p {
+  color: #ddd;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.final-cta span {
+  color: #ff1a1a;
+  font-weight: 600;
+}
+
+.cta-btn.big {
+  font-size: 18px;
+  padding: 16px 36px;
+}
+
+.final-cta small {
+  display: block;
+  margin-top: 20px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+
+  .marketing-box,
+  .publicidad-box,
+  .diseno-box {
+    padding: 40px 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .steps {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+}
